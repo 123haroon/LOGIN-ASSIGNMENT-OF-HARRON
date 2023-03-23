@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment By M.Haroon</title>
+    <!-- bootstrap Css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+   
+</head>
+
+
+<body class="d-flex flex-column min-vh-100 "  style="background-image: linear-gradient(#dadada,#755e5e)";>
+  
+       
+
+    <main>
+        <div class="py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h3 class="text-center" style="color: red;" id="project"></h3>
+                        <div class="border-bottom mt-4 border-secondary"></div>
+                    </div>
+                </div>
+                <div class="row mt-3 mt-md-5 ">
+                    <div class="col-12 col-md-6 mb-3 mb-md-0">
+                        <h4 class="text-center text-danger ">Input</h4>
+                        <div class="border rounded-3 p-4 d-flex align-items center" style="height:122px">
+                            <div class="input-group">
+                                <input type="text" class="form-control bg-transparent" placeholder="Type your text here" id="inputvalue">
+                                <button class="btn btn-outline-secondary" onclick="clr1()">clear </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <h4 class="text-center text-danger">Original Strings</h4>
+                        <div class="border rounded-3 py-4  " id="text" style="background-image: linear-gradient(#f3fbf5,#edf3e1)";>
+                            <div class="text-center mb-4 mt-3" onclick="org()" id="originalstring">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-3 mt-md-5" style="color: red;  ">
+                    <div class="col-12 col-md-6 mb-3 mb-md-0">
+                        <h4 class="text-center"> Buttons</h4>
+                        <div class="border rounded-3 py-4 text-center " id="btn-box" style="background-image: linear-gradient(#f2d9f4,#d2b9d0);">
+                            <button class="btn btn-danger me-3" id="nameoftoday" onclick="  printcity()">Print cities</button>
+                            <button class="btn btn-danger" onclick="addcity()">Add city</button>
+                        
+
+
+                        </div>
+
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <h4 class="text-center">Output / Result</h4>
+                        <div class="border rounded-3 py-4 text-center" id="output" style="min-height: 272px;min-width: 100%; background-image: linear-gradient(#e5ebe6,#ecc3f6)">
+                        </div>
+                        <div class="text-center" >
+                            <button class="btn btn-outline-secondary mt-3 " id="clear-output" onclick="clr2()" style="background-image: linear-gradient(#e3eaec,#f3cbfe);color: RED;">Clear Output</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    </main>
+
+
+    <footer class="py-2">
+        <div class="container">
+            <div class="row" style="background-image: linear-gradient(#4a164f,#377663)">
+                <div class="col">
+                    <p class="text-center text-white mb-0 p-3">
+                        &copy;2023 All Rights Are Reserved. <a href="https://www.haroonammar.net" class="text-whitE text-decoration-none fw-bold">www.Hroon Asghar.net</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+    <!-- bootstrap Js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom Js -->
+    <script src="./scrot.js"></script>
+</body>
+
+
+</html>
